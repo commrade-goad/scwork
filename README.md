@@ -21,12 +21,9 @@ scwork prev
 scwork n
 scwork next
 # using min and max
-scwork n -max 5 # will not move to workspace bigger than 5
-scwork p -min 5 # will not move to workspace less than 5
+scwork n -max 5 # will move to min value when workspace bigger than 5
+scwork p -min 5 # will move to max value when workspace less than 5
 ```
-
-## LIMITATION
-- when using prev on workspace 1 and next on workspace 10 will do nothing
 
 ## BEHAVIOR
 the behavior of this custom prog/script are:
